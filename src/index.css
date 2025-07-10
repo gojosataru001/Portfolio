@@ -1,0 +1,9 @@
+@import "tailwindcss";
+/* Force html2canvas-compatible fallback colors */
+
+
+:root {
+  --tw-text-opacity: 1;
+  --tw-bg-opacity: 1;
+}
+
