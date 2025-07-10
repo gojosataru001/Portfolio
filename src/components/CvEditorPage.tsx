@@ -26,6 +26,7 @@ export interface CVFormData {
 }
 
 // ✅ Step 2: Start your component
+
 export default function CvEditorPage() {
   const [formData, setFormData] = useState<CVFormData>({
     name: "",
@@ -84,7 +85,7 @@ export default function CvEditorPage() {
     fetchCV();
   }, []);
 
-  // ✅ Return the layout (form + preview)
+  //  Return the layout (form + preview)
   return (
     <motion.div className="flex flex-col md:flex-row gap-6 p-4 min-h-screen">
       {/* Left: Form Section */}

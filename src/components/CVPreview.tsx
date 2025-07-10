@@ -12,6 +12,7 @@ interface Props {
   selectedTemplate: string;
 }
 
+
 const CVPreview: React.FC<Props> = ({ formData, selectedTemplate }) => {
   switch (selectedTemplate) {
     case "template2":
